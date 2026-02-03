@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Allura', cursive;
   margin: 0;
   padding: 0;
   background-color: #fefefe;
@@ -7,7 +7,6 @@ body {
 }
 
 header, footer {
-  font-family:'Allura', cursive;
   text-align: center;
   padding: 20px;
   background-color: #eee;
