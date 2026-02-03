@@ -7,6 +7,7 @@ body {
 }
 
 header, footer {
+  font-family:'Allura', cursive;
   text-align: center;
   padding: 20px;
   background-color: #eee;
