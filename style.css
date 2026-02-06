@@ -28,10 +28,10 @@ header, footer {
 }
 
 .site-header{
-  display: flex
+  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 25px;
   padding: 20px;
   background-color: #eee;
 }
