@@ -12,16 +12,6 @@ header, footer {
   background-color: #eee;
 }
 
-/*
-.gallery .images {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-  padding: 20px;
-}
-*/
-
 blockquote {
   font-style: italic;
   margin: 20px auto;
@@ -84,7 +74,7 @@ blockquote {
 
 blockquote {
   font-style: italic;
-  margin: 20px auto;
+  margin: 0px auto;
   max-width: 600px;
   color: #555;
 }
