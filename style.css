@@ -12,12 +12,26 @@ header, footer {
   background-color: #eee;
 }
 
+/*
 .gallery .images {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   justify-content: center;
   padding: 20px;
+}
+*/
+
+.image {
+  display: flex;
+  flex-direction: column;  /* ensures caption stays below the image */
+  align-items: center;     /* center image + caption */
+  width: 260px;            /* fixed width for all items */
+}
+
+.gallery {
+  padding: 20px;
+  text-align: center;
 }
 
 .gallery img {
@@ -27,6 +41,12 @@ header, footer {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;      /* allows images to go to next row if needed */
+  justify-content: center;
+  gap: 20px;            /* space between images */
+}
 .site-header{
   display: flex;
   align-items: center;
