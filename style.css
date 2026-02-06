@@ -81,3 +81,30 @@ blockquote {
   padding: 20px;
   text-align: center;
 }
+
+blockquote {
+  font-style: italic;
+  margin: 20px auto;
+  max-width: 600px;
+  color: #555;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #444;
+}
+
+nav a:hover {
+  color: #e75480;
+}
