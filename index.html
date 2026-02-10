@@ -6,6 +6,16 @@
   <title>Ayu's Collections</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
+<script>
+fetch("writings/imaginations.txt")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("imaginations").textContent = data;
+  })
+  .catch(err => console.log(err));
+</script>
+
 <body>
   <header class="site-header">
     <div class="title-text">
@@ -70,12 +80,13 @@
       <h3 id ="Writing-Corner">The Writing Corner</h3>
       <p>A little corner where poems, short stories, and thoughts come to life.
         Here, my words wander freely, turning feelings and imagination into something you can read and feel.</p>
-      <div class="writing-words">
+      <pre id="imaginations" class="poem"></pre>
+<!--      <div class="writing-words">
         <ul>
           <li><p>Imaginations <embed src="writings/imaginations.txt" type="text/plain" width="500" height="400"></p></li>
           <li>Story2</li>
         </ul>
-      </div>
+      </div> -->
     </section>
 
     <p>I made a little progress tracker for the things I accomplished in 2026.</p>
