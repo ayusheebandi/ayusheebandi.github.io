@@ -7,14 +7,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<script>
-fetch("writings/imaginations.txt")
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById("imaginations").textContent = data;
-  })
-  .catch(err => console.log(err));
-</script>
+  <script>
+  fetch("writings/imaginations.txt")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("imaginations").textContent = data;
+    })
+    .catch(err => console.log(err));
+  </script>
 
 <body>
   <header class="site-header">
